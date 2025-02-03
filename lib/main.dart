@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(  // Use GetMaterialApp instead of MaterialApp
       title: 'GetX Example',
       initialRoute: '/',    // Initial route
+      
       getPages: [
         GetPage(name: '/', page: () => HomePage()),
         GetPage(name: '/next', page: () => NextPage()),
